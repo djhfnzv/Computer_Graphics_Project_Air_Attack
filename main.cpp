@@ -16,6 +16,8 @@ void init() {
     gluOrtho2D(0.0, width, 0.0, height); // Set the 2D clipping area
 }
 
+
+///------GROUND------///
 void ground() {
     double groundArr[28][2]={
         {0  ,0.0},
@@ -65,6 +67,7 @@ void ground() {
     glEnd();
 }
 
+///----SKY----///
 void sky(){
     double mnt1[28][2]={
         {0  ,0},
@@ -164,6 +167,10 @@ void sky(){
     glEnd();
 
 
+}
+
+///-----Building-----///
+void building(){
 }
 
 void display() {
